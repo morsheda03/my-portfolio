@@ -1,0 +1,105 @@
+*{
+    font-family: 'Manrope', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+/* header and navigation styles */
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn{
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 36px;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 24px 0 200px;
+}
+.banner-sub-title{
+  font-weight: 600;
+  font-size: 45px;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+.banner-des{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about me section */
+
+.about-me{
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+.section-title{
+    margin-bottom: 30px; 
+    font-weight: 700;       
+}
+.section-des{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
+}
+.info-des{
+    font-weight: 700;
+}
