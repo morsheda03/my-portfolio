@@ -83,6 +83,7 @@ main{
   text-align: center;
 }
 .section-title{
+    text-align: center;
     margin-bottom: 30px; 
     font-weight: 700;       
 }
@@ -94,7 +95,6 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-around;
-
 }
 .info-title{
     color: #757575;
@@ -102,4 +102,32 @@ main{
 }
 .info-des{
     font-weight: 700;
+}
+
+/* what I do section styles */
+
+.what-do{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+/* jekhane flex shekhanei gap hobe */
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-des{
+    color: #757575;
+    font-size: 16px;
 }
