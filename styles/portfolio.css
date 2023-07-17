@@ -85,7 +85,8 @@ main{
 .section-title{
     text-align: center;
     margin-bottom: 30px; 
-    font-weight: 700;       
+    font-weight: 700; 
+    font-size: 35px;      
 }
 .section-des{
     color: #757575;
@@ -130,4 +131,42 @@ main{
 .skill-des{
     color: #757575;
     font-size: 16px;
+}
+
+/* Resume section styles */
+
+.section-title{
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+.resume-content{
+    display: flex;
+    gap: 26px;
+}
+.resume-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume .des{
+    color: #757575;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
 }
